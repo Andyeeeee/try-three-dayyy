@@ -1,6 +1,7 @@
 import React from "react";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
+
 
 export default function RootLaout() {
   return (
@@ -13,6 +14,9 @@ export default function RootLaout() {
           <NavLink to="about">About</NavLink>
         </nav>
       </header>
+      <main>
+        <Outlet />
+      </main>
     </div>
   )
 }
