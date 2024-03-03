@@ -16,7 +16,7 @@ import NotfFound from './pages/NotfFound'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='./' element={<RootLaout />}>
+    <Route path='/' element={<RootLaout />}>
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='help' element={<HelpLaour />} >
